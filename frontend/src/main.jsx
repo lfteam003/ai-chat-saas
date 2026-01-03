@@ -39,7 +39,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </div>
       </section>
 
-      {/* Pricing dark pro */}
+      {/* Pricing dark pro - FIXATO QUI */}
       <section className="bg-slate-900/80 py-24">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-16">Prezzi Trasparenti</h2>
@@ -47,28 +47,41 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <div className="bg-slate-800 border border-slate-700 p-12 rounded-2xl">
               <h3 className="text-3xl font-bold mb-6">Starter</h3>
               <p className="text-5xl font-bold mb-8">€49<span className="text-xl">/mese</span></p>
-              <button className="w-full bg-slate-700 py-4 rounded-xl hover:bg-slate-600 transition">Inizia</button>
+              <ul className="text-left mb-10 space-y-3">
+                <li>✓ Fino a 5.000 conversazioni/mese</li>
+                <li>✓ Integrazioni base</li>
+                <li>✓ Supporto email</li>
+              </ul>
+              <button className="w-full bg-slate-700 py-4 rounded-xl hover:bg-slate-600 transition font-semibold">Inizia Ora</button>
             </div>
             <div className="bg-gradient-to-br from-purple-900 to-blue-900 border border-purple-500 p-12 rounded-2xl scale-105 shadow-2xl shadow-purple-500/30">
               <h3 className="text-3xl font-bold mb-6">Professional ⭐</h3>
               <p className="text-5xl font-bold mb-8">€149<span className="text-xl">/mese</span></p>
+              <ul className="text-left mb-10 space-y-3">
+                <li>✓ Conversazioni illimitate</li>
+                <li>✓ Upsell AI avanzati</li>
+                <li>✓ Analytics dettagliati</li>
+                <li>✓ Priorità support</li>
+              </ul>
               <button className="w-full bg-white text-slate-900 py-4 rounded-xl font-bold hover:bg-gray-200 transition">Scegli Pro</button>
             </div>
             <div className="bg-slate-800 border border-slate-700 p-12 rounded-2xl">
               <h3 className="text-3xl font-bold mb-6">Enterprise</h3>
               <p className="text-5xl font-bold mb-8">Custom</p>
-              <button className="w-full bg-slate-700 py-4 rounded-xl hover:bg-slate-600 transition">Contattaci</button>
+              <ul className="text-left mb-10 space-y-3">
+                <li>✓ Tutto Pro + AI training custom</li>
+                <li>✓ SLA dedicato</li>
+                <li>✓ White-label completo</li>
+              </ul>
+              <button className="w-full bg-slate-700 py-4 rounded-xl hover:bg-slate-600 transition font-semibold">Contattaci</button>
             </div>
           </div>
         </div>
       </section>
 
-      <footer className="text-center py-12 border-t border-slate-800">
-        © 2026 Il tuo AI Chatbot SaaS – Globale, Sicuro, Scalabile
+      <footer className="text-center py-12 border-t border-slate-800 text-slate-400">
+        © 2026 AI Chatbot SaaS – Globale, Sicuro, Scalabile
       </footer>
-    </div>
-  </React.StrictMode>
-)
     </div>
   </React.StrictMode>
 )
