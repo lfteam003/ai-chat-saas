@@ -5,9 +5,8 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className="min-h-screen bg-slate-950 text-slate-200">
-      {/* Hero */}
       <header className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-32">
-        <div className="container mx-auto px-6 text-center relative z-10">
+        <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
             AI Chatbot Enterprise per E-commerce
           </h1>
@@ -20,7 +19,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </div>
       </header>
 
-      {/* Features */}
       <section className="container mx-auto px-6 py-24">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Funzionalità Potenti</h2>
         <div className="grid md:grid-cols-3 gap-12">
@@ -39,20 +37,17 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </div>
       </section>
 
-      {/* Pricing */}
       <section className="bg-slate-900/80 py-24">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-16">Prezzi Trasparenti</h2>
           <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
             <div className="bg-slate-800 border border-slate-700 p-12 rounded-2xl">
               <h3 className="text-3xl font-bold mb-6">Starter</h3>
-              <p className="text-5xl font-bold mb-8">
-                €49<span className="text-xl">/mese</span>
-              </p>
+              <p className="text-5xl font-bold mb-8">€49<span className="text-xl">/mese</span></p>
               <ul className="text-left mb-10 space-y-3">
-                <li>• Fino a 5.000 conversazioni/mese</li>
-                <li>• Integrazioni base</li>
-                <li>• Supporto email</li>
+                <li>- Fino a 5.000 conversazioni/mese</li>
+                <li>- Integrazioni base</li>
+                <li>- Supporto email</li>
               </ul>
               <button className="w-full bg-slate-700 py-4 rounded-xl hover:bg-slate-600 transition font-semibold">
                 Inizia Ora
@@ -61,14 +56,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
             <div className="bg-gradient-to-br from-purple-900 to-blue-900 border border-purple-500 p-12 rounded-2xl scale-105 shadow-2xl shadow-purple-500/30">
               <h3 className="text-3xl font-bold mb-6">Professional</h3>
-              <p className="text-5xl font-bold mb-8">
-                €149<span className="text-xl">/mese</span>
-              </p>
+              <p className="text-5xl font-bold mb-8">€149<span className="text-xl">/mese</span></p>
               <ul className="text-left mb-10 space-y-3">
-                <li>• Conversazioni illimitate</li>
-                <li>• Upsell AI avanzati</li>
-                <li>• Analytics dettagliati</li>
-                <li>• Priorità support</li>
+                <li>- Conversazioni illimitate</li>
+                <li>- Upsell AI avanzati</li>
+                <li>- Analytics dettagliati</li>
+                <li>- Priorità support</li>
               </ul>
               <button className="w-full bg-white text-slate-900 py-4 rounded-xl font-bold hover:bg-gray-200 transition">
                 Scegli Pro
@@ -79,9 +72,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <h3 className="text-3xl font-bold mb-6">Enterprise</h3>
               <p className="text-5xl font-bold mb-8">Custom</p>
               <ul className="text-left mb-10 space-y-3">
-                <li>• Tutto Pro + AI training custom</li>
-                <li>• SLA dedicato</li>
-                <li>• White-label completo</li>
+                <li>- Tutto Pro + AI training custom</li>
+                <li>- SLA dedicato</li>
+                <li>- White-label completo</li>
               </ul>
               <button className="w-full bg-slate-700 py-4 rounded-xl hover:bg-slate-600 transition font-semibold">
                 Contattaci
